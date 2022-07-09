@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url(./fonts/Roboto-Light.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +5,9 @@
 }
 
 body {
-    font-family: '';
+    font-family: 'Roboto', sans-serif;
     max-width: 1380px;
     margin: auto;
-
 }
 
 .header {
@@ -23,11 +17,13 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav {
@@ -65,10 +61,14 @@ a {
 
 .container {
     margin: auto;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+.container .row {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
 .row {
     display: flex;
@@ -87,8 +87,6 @@ a {
     height:350px;
     padding: 20px 20px;
 }
-
-
 
 .btn {
     display: inline-block;
@@ -115,7 +113,7 @@ a {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 36px;
     padding-bottom: 25px;
 }
 
@@ -153,11 +151,9 @@ a {
 .testimonial .row {
     max-width: 1080px;
     margin: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
-    padding: 40px 25px;
+    padding: 80px 25px;
     font-size: 36px;
     color: #1F2937;
 }
@@ -185,7 +181,6 @@ a {
 .sign_up .btn {
     border: solid 1px white;
     margin-left: 200px;
-
 }
 
 .sign_up .col-2 h3{
@@ -200,10 +195,17 @@ a {
     width: 100%;
     background-color: #1F2937;
     height: 80px;
-    padding-top: 30px;
+    padding-top: 0px;
+    text-align: center;
 }
 
 .footer span {
     color:#F9FAF8;
     
+}
+
+.footer .span {
+    width: 100%;
+    padding-top: 30px;
+
 }
