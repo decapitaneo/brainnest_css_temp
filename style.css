@@ -209,3 +209,89 @@ a {
     padding-top: 30px;
 
 }
+
+/* Login */
+
+.form-container {
+    position: relative;
+    width: 621.12px;
+    height: 528px;
+    text-align: left;
+    margin: auto; /*centraliza o elemento sem precisar usar todos os valores*/
+    margin-top: 30px;
+    margin-bottom: 130px;
+  }
+  
+  .form-container span {
+    font-weight: bold;
+    font-size: 72px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 13px;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .form-btn {
+    display: inline-block;
+    color: #333333;
+  }
+  .form-container form {
+    max-width: 300px;
+    padding-top: 55px;
+    position: absolute;
+    padding-bottom: 30px;
+  }
+  
+  form input {
+    width: 200%;
+    height: 60px;
+    margin: 20px 0;
+    padding-left: 27px;
+    border: solid 1.53px #000000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  form .btn {
+    width: 200%;
+    border: none;
+    cursor: pointer;
+    height: 54px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    border-radius: 23px;
+    background-color: #3882F6;
+  }
+  
+  .btn {
+    margin-top: 59px;
+  }
+  
+  form .btn:focus {
+    outline: none; /*quando eu clicar no icone N ira aparecer o fundo*/
+  }
+  
+  form .registro {
+    width: 200%;
+    font-family: 'Roboto', sans-serif;
+    height: 28px;
+    margin-top: 20.1px;
+    text-align: center;
+    color: #222222;
+    font-size: 21.47px;
+  }
+
+  form a {
+    text-decoration: none;
+  }
+
+  form .registro a{
+    color: #1a55a7;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+  }
